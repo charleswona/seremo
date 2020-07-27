@@ -1,0 +1,15 @@
+.img{
+    float: right;
+    height: 85vh;
+    position: relative;
+}
+.img-back{
+    width: 70%;
+    height: 100%;
+}
+.img-front{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: 35%;
+}
