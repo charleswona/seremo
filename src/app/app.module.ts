@@ -7,6 +7,8 @@ import { HeaderComponent } from './layourts/header/header.component';
 import { FooterComponent } from './layourts/footer/footer.component';
 import { HomeComponent } from './views/home/home.component';
 import { BusinessComponent } from './views/business/business.component';
+import { SecurityComponent } from './views/security/security.component';
+import { ContactUsComponent } from './views/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { BusinessComponent } from './views/business/business.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    BusinessComponent
+    BusinessComponent,
+    SecurityComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
