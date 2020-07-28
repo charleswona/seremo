@@ -3,11 +3,15 @@ import { Routes, RouterModule } from '@angular/router';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { HomeComponent } from './views/home/home.component';
 import { BusinessComponent } from './views/business/business.component';
+import { SecurityComponent } from './views/security/security.component';
+import { ContactUsComponent } from './views/contact-us/contact-us.component';
 
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'business', component: BusinessComponent },
+  { path: 'security', component: SecurityComponent },
+  { path: 'contact-us', component: ContactUsComponent },
   { path: '*', component: HomeComponent },
   { path: '', component: HomeComponent },
   { path: '**', redirectTo: 'home' }
