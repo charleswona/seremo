@@ -1,15 +1,34 @@
-.img{
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Sintony&display=swap');
+
+.btn-myprimary{
+    background-color: #28A3E6;
+    color: white;
+}
+
+.img {
     float: right;
     height: 85vh;
     position: relative;
 }
-.img-back{
+
+.img-back {
     width: 70%;
     height: 100%;
 }
-.img-front{
+
+.img-front {
     width: 70%;
     height: 100%;
     position: absolute;
     left: 35%;
+}
+
+.home-title {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 22px;
+    color: #262626;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.2;
+    font-weight: 800;
 }
