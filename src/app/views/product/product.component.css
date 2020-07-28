@@ -1,0 +1,41 @@
+section{
+    min-height: 100vh ;
+}
+.section2{
+    min-height: 90vh;
+}
+.section3{
+    min-height: 97vh;
+}
+.cards{
+    height: 415px;
+} 
+.title{
+    font-weight: 300; 
+    font-size: 48px; 
+    line-height: 54px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title-1{
+    font-weight: 300; 
+    font-size: 32px; 
+    line-height: 36px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title-2{
+    font-weight: 300; 
+    font-size: 22px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.description{
+    font-weight: 300; 
+    font-size: 16px; 
+    line-height: 24px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707273;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.img-card{
+    max-height: 136px;
+}
